@@ -1,0 +1,496 @@
+<htmml>
+    <head>
+        <title></title>
+        <style>
+            *{
+                background-color:whitesmoke;
+            }
+            h1,h2{
+                color:black;
+            }
+            .city{
+                float: left;
+            }
+            #kk{
+                border-radius: 50%;
+                text-align: center;
+                padding-right: 10px;
+
+            }
+            
+           .colom{
+               float: left;
+               width: 23%;
+               padding: 5px;
+               height: 23%;
+              margin:0;
+            align-items: flex-end;
+        
+           }
+           .colom img:hover{
+               border-radius: 20px;
+               border: 1px solid black;
+               transform: scale(1.3);
+           }
+          table,td,th{
+              border: 1px solid black;
+              border-collapse: collapse;
+              padding: 10;
+          }             
+        table.center{
+            margin-left: auto;
+            margin-right: auto;
+            
+            
+            
+        }
+        .pp{
+            text-align: center;
+        }
+        button{
+            color: #000;
+            background-color: red;
+        }
+        .row{
+            ;
+
+        }
+        p{
+            text-indent:px;
+            text-align: justify;
+        }
+         
+      
+            body{
+                font-family: sans-serif;
+            }
+            .register{
+                width: 800px;
+               background-color:rgb(107, 7, 90);
+               margin: auto;
+               padding: 10px 0px 10px 0px;
+               text-align: center;
+            }
+            .main{
+                background-color:#2565f0;
+                width: 800px;
+                margin:auto;
+            }
+            form{
+                padding: 10px;
+
+            }
+            #name{
+                width: 100%;
+                height: 100px;
+
+            }
+            .name{
+                margin-left: 25px;
+                margin-top: 30px;
+
+                width: 125px;
+                color: rgb(70, 114, 40);
+                font-size: 18px;
+                font-weight: 700;
+            }
+            .firstname{
+                position: relative;
+                left:200px;
+                top: -37px;
+                line-height: 40px;
+                border-radius: 6px;
+                padding: 0 22px;
+                font-size: 16px;
+                color: chartreuse;
+            }
+            .lastname{
+                position: relative;
+                left:200px;
+                top: -37px;
+                line-height: 40px;
+                border-radius: 6px;
+                padding: 0 22px;
+                font-size: 16px;
+                color: #555;
+
+            }
+            .firstlabel{
+                position: relative;
+                color: chartreuse;
+                text-transform: capitalize;
+                font-size: 14px;
+                left: -46px;
+                top:-10px;
+            }
+            .lastlabel{
+                position: relative;
+                color: chartreuse;
+                text-transform: capitalize;
+                font-size: 14px;
+                left: -46px;
+                top:-10px;
+
+            }
+            .company{
+                position: relative;
+                left:200px;
+                top:-37px;
+                line-height:40px;
+                width: 553px;
+                border-radius: 6px;
+                padding: 0 22px;
+                font-size: 16px;
+            }
+            .email{
+                position: relative;
+                left:200px;
+                top:-37px;
+                line-height:40px;
+                width: 553px;
+                border-radius: 6px;
+                padding: 0 22px;
+                font-size: 16px;
+            }
+            .code{
+                position: relative;
+                width: 95px;
+                left:200px;
+                top: -37px;
+                line-height: 40px;
+                border-radius: 6px;
+                padding: 0 22px;
+                font-size: 16px;           
+                 }
+                 .number{
+                    position: relative;
+                left:155px;
+                top: -37px;
+                line-height: 40px;
+                border-radius: 6px;
+                padding: 0 22px;
+                font-size: 16px;
+                width: 380px;
+                 }
+                 .area_code{
+                    position: relative;
+                left: 80px;
+                top: -10px;
+                line-height: 40px;
+                border-radius: 6px;
+                padding: 0 22px;
+                font-size: 16px;
+                color: chartreuse;
+
+                 }
+                 .phone_number{
+                     position: relative;
+                     left: -229px;
+                     top:-10px;
+                     text-transform: capitalize;
+                     font-size: 14px;
+                     color: chartreuse;
+
+
+                 }
+                 .option{
+                position: relative;
+                width: 553px;
+                left:200px;
+                top: -37px;
+                line-height: 40px;
+                border-radius: 6px;
+                padding: 0 22px;
+                font-size: 16px;
+                color: #555;
+                overflow: hidden;
+            }
+
+                 .option option{
+                     font-size: 20px;
+                 }
+                 #student{
+                     margin-left: 25px;
+                     color: white;
+                     font-size: 18px;
+                 }
+                 .radio{
+                     display:inline-block;
+                     padding-right: 70px;
+                     font-size: 25px;
+                     margin: 10px 15px;
+                     margin-left: 25px;
+                     color: white;
+                 }
+                 .radio input{
+                     width: 20px;
+                     height: 20px;
+                     border-radius: 50%;
+                     cursor: pointer;
+                     outline: none;
+                 }
+                 button{
+                     background-color: #3baf9f;
+                     display: block;
+                     margin: 20px 0px 0px 20px;
+                     text-align: center;
+                     border-radius: 12px;
+                     border: 2px solid #366473;
+                     padding: 14px 10px;
+                     outline: none;
+                     color: white;
+                     cursor: pointer;
+                     transition: 0.25px;
+
+                 }
+                 button:hover{
+                     background-color: red;
+
+                 }
+                 .addressmain{
+                    float: auto;
+                    display: flex;
+                    padding: 10px;
+
+
+                 }
+                 .addressicon{
+                     background-color: whitesmoke;
+                 }
+
+ 
+        
+            
+        
+      
+
+        </style>
+    </head>
+    <body>
+        <h1 style="text-align: center;"> P.V. Narasimha Rao </h1>
+        <h1 style="text-align: center; font-weight: lighter;">1921 - 2004</h1>
+        <h1 style="text-align: center;font-weight: lighter;font-family: Arial, Helvetica, sans-serif;"> He became India’s tenth Prime Minister</h1>
+        <div>
+            
+        <p>A week before he turned 70, in June 1991, Pamulaparti Venkata Narasimha Rao became India’s tenth Prime Minister. In recalling his political career on the occasion of his birth centenary (June 28), some have remarked that he was the first “accidental” Prime Minister. In a manner of speaking that may be true. However, there were many reasons why he was also the “natural” choice for the job at the time.
+
+            After Rajiv Gandhi’s assassination, Rao was, without question, the least unacceptable leader in the faction-ridden Indira Congress. His rivals at the time, N D Tiwari, Arjun Singh and Sharad Pawar, checkmated each other. Rao’s candidature also benefited from the firm support he secured from President R Venkataraman, who adopted a new principle of inviting the leader of the largest political formation to form a government without seeking a proof of numbers.</p></fieldset>
+            </div><br>
+        
+            <div class="city">
+                <img  id="kk"src="https://static.toiimg.com/photo/imgsize-771822,msid-83895204/83895204.jpg" alt="p.v narasimha rao" height="500px">
+            </div><br><br><br><br>
+            <div><pre> <h2 style="text-align:justify;"><u>Personal details:-</u></h2>
+                Born	       : 28 June 1921
+                                 Laknepalli, Narsampet, Hyderabad State,
+                                 British India (now in Telangana, India)
+
+                Died	       : 23 December 2004 (aged 83)
+                                 New Delhi, India
+
+                Cause of death : Cardiac arrest
+
+                Political party: Indian National Congress
+
+                Spouse(s)      : Satyamma
+                                  ​(m. 1943; died 1970)​
+
+                Children       : 8, including P. V. Rajeshwar Rao,
+                                 Surabhi Vani Devi
+
+                Alma mater     : Osmania University (B.A.)
+                                 University of Mumbai
+                                 Nagpur University (LL.M.)
+
+                Occupation     :  Lawyerpoliticianwrite</pre></div>
+        </fieldset>
+        <h2 style="font-weight: lighter;">&nbsp political career and served in ministerial positions:-</h2>
+        <ul>
+            <li>9th Prime Minister of India
+                In office
+                21 June 1991 – 16 May 1996</li>
+                <li>Minister of Defence
+                    In office
+                    6 March 1993 – 16 May 1996</li>
+                <li>Minister of External Affairs
+                    In office
+                    31 March 1992 – 18 January 1994</li>
+                <li>Minister of Home Affairs
+                    In office
+                    12 March 1986 – 12 May 1986</li>
+                <li> He served as an elected representative for Andhra Pradesh state assembly from 1957 to 1977</li>
+                <li> He served in various ministerial positions in Andhra government from 1962 to 1973</li>
+                <li>He became the Chief minister of Andhra Pradesh in 1971 and implemented land reforms and land ceiling acts strictly.</li>
+                <li> He served as Member of Parliament, Lok Sabha from Andhra Pradesh districts in 1972</li>
+                <li>in 1996, he was MP from Berhampur, Ganjam, Odisha. His cabinet included Sharad Pawar, himself a strong contender for the Prime Minister's post, as Defence Minister</li>
+                <li>Rao was awarded the Pratibha Murthy Lifetime Achievement Award</li>
+                <li>In September 2020, Telangana Legislative Assembly adopted a resolution seeking to confer Bharat Ratna on Rao</li>
+                <li> The resolution also requested the Central Government to rename the University of Hyderabad after him.
+                 References</li>
+        </ul>
+
+        <h1 style="text-align: center;">photo gallary of p.v. Narasimha Rao </h1>
+        <div class="row">
+            <div class="colom">
+            <img src="https://www.thestatesman.com/wp-content/uploads/2019/03/Narasimha-Rao-award.jpg" width="100%" height="100%">
+        </div>
+        <div class="colom">
+            <img src="https://images.indianexpress.com/2020/07/NarasimhaRao-Sonia-Gandhi-759tag.jpg" width="100%" height="100%">
+        </div>
+        <div class="colom"><img src="https://akm-img-a-in.tosshub.com/sites/indiacontent/0/images/product/public/09012020/00/01/57/85/50/33/50/79/1578550335079/659-pv-narasimha-rao-prime-minister-with-arjun-singh-and-manmohan-singh-image-F217SS16_DVD0020.jpg" width="100%" height="100%">
+        </div>
+        <div class="colom"><img src="https://akm-img-a-in.tosshub.com/sites/indiacontent/0/images/product/public/09102018/00/00/04/02/20/65/4022065/659-F258SM8-DVD0102.jpg" width="100%" height="100%"></div>
+        </div>
+        <div class="colom">
+                <img src=https://images.news18.com/ibnlive/uploads/2020/06/1593411415_pv-narasimha-rao-sonia-gandhi.jpg width="100%" height="100%">
+            </div>
+            <div class="colom" >
+                <img src="https://images.livemint.com/rf/Image-621x414/LiveMint/Period2/2016/07/26/Photos/Processed/pvnr-k6UF--621x414@LiveMint.jpg" width="100%" height="100%">
+            </div>
+            <div class="colom">
+                <img src="https://akm-img-a-in.tosshub.com/sites/indiacontent/0/images/product/public/26102018/00/00/00/26/74/20/267420/659-F89sq12-000790.jpg" width="100%" height="100%">
+            </div>
+            <div class="colom">
+                <img src="https://images.indianexpress.com/2019/01/narasimha-rao.jpg" width="100%" height="100%">
+            </div>
+        </div>
+        </fieldset>
+        <br>
+        <h1 style="text-align: center;">Narasimha Rao fought and won elections from different parts of India such as Andhra Pradesh, Maharashtra and Odisha</h1>
+        <div>
+            <table class="center">
+            <tr>
+                <th>s no</th>
+                <th>position</th>
+                <th>took office</th>
+                <th>left office</th>
+                <th>constituency</th>
+                <th>state location</th>
+                <th>state</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>member of legislative Assembly</td>
+                <td>1957</td>
+                <td>1977</td>
+                <td>manthani</td>
+                <td><a href="https://en.wikipedia.org/wiki/Manthani_(Assembly_constituency)"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjrkbnGfl4MpLkwJEQI9Ob27reK57pcRiN5o-O6ujq7rTeTkfm4NWZnSKMFVSWI5NqmPg&usqp=CAU" height="200px" width="350px"></a></td>
+
+                <td>Andra Pradesh</td>
+
+
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>member of parliament,lok sabha</td>
+                <td>1977</td>
+                <td>1980</td>
+                <td>hanamkonda</td>
+                <td><a href="https://www.google.com/search?q=andra+pradesh&source=lmns&bih=722&biw=1536&rlz=1C1UEAD_enIN948IN948&hl=en&sa=X&ved=2ahUKEwjw0Zqi7LvxAhU0hUsFHWl0AaEQ_AUoAHoECAEQAA"><img src="https://www.holidify.com/images/bgImages/ANDHRA-PRADESH.jpg" height="200px"" width="350px"></a></td>
+                <td>Anadra pradesh</td>
+
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>member of parliament,lok sabha</td>
+                <td>1980</td>
+                <td>1984</td>
+                <td>hanmkoda</td>
+                <td><a href="https://en.wikipedia.org/wiki/Hanamkonda"><img src="https://images-na.ssl-images-amazon.com/images/I/81V2KoPc8TL.jpg" height="200px" width="350px"></a></td>
+
+                <td>Andra pradesh</td>
+
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>member of parliament,lok sabha</td>
+                <td>1984</td>
+                <td>1989</td>
+                <td>ramtek</td>
+                <td><a href="https://en.wikipedia.org/wiki/Maharashtra"><img src="https://static.toiimg.com/photo/77718645.cms" height="200px" width="350px"></a></td>
+
+                <td>maharashtra</td>
+
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>member of parliament,lok sabha</td>
+                <td>1989</td>
+                <td>1991</td>
+                <td>remtek</td>
+                <td><a href="https://en.wikipedia.org/wiki/Ramtek"><img src="https://i.ytimg.com/vi/eJkc5G-izcE/maxresdefault.jpg" height="200px" width="350px"></a></td>
+
+                <td>maharashtra</td>
+
+            </tr>
+            <tr>
+                <td>6</td>
+                <td>member of parliament,lok sabha</td>
+                <td>1991</td>
+                <td>1996</td>
+                <td>nandyala</td>
+                <td><a href="https://en.wikipedia.org/wiki/Nandyal"><img src="https://images.newindianexpress.com/uploads/user/imagelibrary/2020/9/30/w1200X800/Freshn.jpg" height="200px" width="350"></a></td>
+
+                <td>andra pradesh</td>
+
+                </tr>
+                </table>
+        </div>
+        <div class="addressmain">
+            <div class="addressicon">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTymkjBdZXtAXKDLO6XaYqCwB0Ha6DZXhdpQiB4iFYKd1VFQt-_0HdI2Evg&s=10" height="50px" width="50px"/ >
+            </div>
+            <div class="phoneicon">
+                <img src="https://image.shutterstock.com/image-vector/phone-vector-icon-on-flat-260nw-1198834861.jpg" height="50px" width="50px"/>
+            </div>
+            <div class="emailicon">
+                <img src="https://thumbs.dreamstime.com/b/envelope-icon-send-email-message-sign-internet-mailing-symbol-circle-button-web-star-square-design-vector-85464342.jpg" height="50px" width="50px"/>
+            </div>
+            <div class="webicon">
+                <img src="https://toppng.com/uploads/preview/world-icon-web-icon-white-11563010874xluuy00vry.png" height="50px" width="50px" />
+            </div>
+        </div>
+        <div><h2 class="register">Register form</h2></div>
+        <div class="main">
+            <form>
+            <div id="name">
+                <h2 class="name">name</h2>
+                <input class="firstname" type="text" name="firstname">
+                <label class="firstlabel">firstname</label>
+                <input class="lastname" type="text" name="lastname">
+                <label class="lastlabel">lastname</label>
+            </div>
+            <h2 class="name">company</h2>
+            <input class="company" type="text" name="company">
+            <h2 class="name">email</h2>
+            <input class="email" type="mail" name="email">
+            <h2 class="name">phone</h2>
+            <input class="code" type="number" name="area_code">
+            <label class="area_code"> area code</label>
+            <input class="number" type="text" name="phone number">
+            <label class="phone_number">phone number</label>
+            <h2 class="name">subject</h2>
+            <select class="option" name="subject">
+                <option disabled="disabled" selected="selected">choose option</option>
+                <option>subject 1</option>
+                <option>subject 2</option>
+                <option>subject 3</option>
+                <option>subject 4</option>
+            </select>
+            <h2 id="student"> are you beginner</h2>
+            <label class="radio">
+                <input class="radio-one" type="radio" checked="checked" name="some">
+                <span class="cheakmark"></span>
+                yes
+            </label>
+            <label class="radio">
+                <input class="radio-two" type="radio" checked="checked" name="some">
+                <span class="checkmark"></span>
+                no
+            </label>
+            <button type="submit">register
+            </button>
+        </form>
+        </div>
+ </body>
+</htmml>
